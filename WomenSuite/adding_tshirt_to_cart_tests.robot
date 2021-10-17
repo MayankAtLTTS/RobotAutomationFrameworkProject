@@ -3,7 +3,7 @@ Resource    ../Resource/Pages/AutomateLogin.resource
 Resource    ../Resource/Pages/WomenPage.resource
 
 Test Setup    Launch Browser
-Test Teardown    End Browser
+# Test Teardown    End Browser
 *** Test Cases ***
 TC3_Adding T-Shirt into Cart
     Automate Login

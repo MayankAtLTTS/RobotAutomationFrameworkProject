@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    This resouce defines reusable functions
+Documentation    This resouce defines reusable methods.
 Library    OperatingSystem  
 Library    SeleniumLibrary      
 *** Variables ***
