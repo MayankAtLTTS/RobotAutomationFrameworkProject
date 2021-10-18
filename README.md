@@ -7,4 +7,18 @@ The site used for automation is :- http://automationpractice.com/index.php?.
 ### 1. registration_tests.robot: 
         This test is used for registering new user. 
         It will generate error if already registered email is used.
+        
+### 2. login_tests.robot
+        This function clicks on sign in and enters email and password stored in GlobalVariableResource and clicks on login.
+        This function doesnot Launch Browser or Close it.
+        
+### 3. adding_tshirt_to_cart_tests.robot
+        Adds t-shirt to cart and validate that.
+        
+### 4. writing_casual_dresses_review_test.robot
+        Write review for dress in casual dresses sub menu and validate successful completion.
+        
+### 5. check_out_tests.robot
+        Adds first dress from home page and purchase it from cart.
+        Successful completion is validated and Cheque details are printed on console.
     
