@@ -22,3 +22,9 @@ The site used for automation is :- http://automationpractice.com/index.php?.
         Adds first dress from home page and purchase it from cart.
         Successful completion is validated and Cheque details are printed on console.
     
+### AutomateLogin.resource
+        Automates Login procedure.\n
+        This keyword uses global variable **${REGISTERED EMAIL ADDRESS}** and **${REGISTERED PASSWORD}** 
+        from *GlobalVariableResource.resource* file.\n
+        **If the current credentials don't work then run registration_tests.robot in LoginSuite folder and update GlobalVariableResource.resource with those credentials.**\n
+        This function doesnot Launch Browser or Close it.
